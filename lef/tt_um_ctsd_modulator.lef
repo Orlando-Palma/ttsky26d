@@ -415,20 +415,5 @@ MACRO tt_um_ctsd_modulator
         RECT 74.830 224.760 75.130 225.760 ;
     END
   END uo_out[7]
-  OBS
-      LAYER nwell ;
-        RECT 15.000 34.000 288.000 190.000 ;
-      LAYER li1 ;
-        RECT 15.000 15.000 293.000 187.100 ;
-      LAYER met1 ;
-        RECT 15.000 15.000 293.000 187.100 ;
-      LAYER met2 ;
-        RECT 20.000 24.300 290.750 163.500 ;
-      LAYER met3 ;
-        RECT 50.500 15.200 176.700 102.200 ;
-      LAYER met4 ;
-        RECT 51.300 16.000 175.900 101.400 ;
-  END
 END tt_um_ctsd_modulator
 END LIBRARY
-
