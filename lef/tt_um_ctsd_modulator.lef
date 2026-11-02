@@ -160,7 +160,7 @@ MACRO tt_um_ctsd_modulator
     END
   END ui_in[7]
   PIN uio_in[0]
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
     USE SIGNAL ;
     PORT
       LAYER met4 ;
@@ -168,7 +168,7 @@ MACRO tt_um_ctsd_modulator
     END
   END uio_in[0]
   PIN uio_in[1]
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
     USE SIGNAL ;
     PORT
       LAYER met4 ;
@@ -176,7 +176,7 @@ MACRO tt_um_ctsd_modulator
     END
   END uio_in[1]
   PIN uio_in[2]
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
     USE SIGNAL ;
     PORT
       LAYER met4 ;
@@ -184,7 +184,7 @@ MACRO tt_um_ctsd_modulator
     END
   END uio_in[2]
   PIN uio_in[3]
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
     USE SIGNAL ;
     PORT
       LAYER met4 ;
@@ -192,7 +192,7 @@ MACRO tt_um_ctsd_modulator
     END
   END uio_in[3]
   PIN uio_in[4]
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
     USE SIGNAL ;
     PORT
       LAYER met4 ;
@@ -200,7 +200,7 @@ MACRO tt_um_ctsd_modulator
     END
   END uio_in[4]
   PIN uio_in[5]
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
     USE SIGNAL ;
     PORT
       LAYER met4 ;
@@ -208,7 +208,7 @@ MACRO tt_um_ctsd_modulator
     END
   END uio_in[5]
   PIN uio_in[6]
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
     USE SIGNAL ;
     PORT
       LAYER met4 ;
@@ -216,7 +216,7 @@ MACRO tt_um_ctsd_modulator
     END
   END uio_in[6]
   PIN uio_in[7]
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
     USE SIGNAL ;
     PORT
       LAYER met4 ;
@@ -415,5 +415,21 @@ MACRO tt_um_ctsd_modulator
         RECT 74.830 224.760 75.130 225.760 ;
     END
   END uo_out[7]
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 5.000 5.000 8.000 220.760 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 10.000 5.000 13.000 220.760 ;
+    END
+  END VPWR
 END tt_um_ctsd_modulator
 END LIBRARY
