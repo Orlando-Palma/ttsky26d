@@ -9,6 +9,7 @@ project:
 
   # Tile size: 2x2 analog/mixed-signal tile
   tiles: "2x2"
+  analog_pins: 3
 
   # Top module name must match GDS/LEF cell name
   top_module:  "tt_um_ctsd_modulator"
